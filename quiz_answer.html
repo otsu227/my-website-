@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>あなたの英語力をくだらない文章で計測するサイト</title>
+    
+    <style>
+
+        .ans{
+            color: #ba2638;
+        }
+        .right{
+            text-align: right;
+            color: #ba2638;
+            position: relative;
+            top: -105px;
+        }
+
+        .h1{
+            text-align: center;
+        }
+        div {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #333;
+            background: #f2f2f2;
+            width: 500px;	
+            position: relative;
+            left: 340px;
+        }
+        .explanation{
+            text-align: center;
+        }
+        .last{
+            text-align: center;
+            color: #ba2638;
+        } 
+        
+        .Lv{
+            color: red;
+        }
+
+        
+        .AT{
+            color: #a0d8ef;
+            text-align: center;
+        }
+
+        button{
+            position:absolute;
+            left: 500px;
+
+            width: 200px;
+            height:60px;
+        }
+
+        .C{
+            position:absolute;
+            left: 500px;
+            color: red;
+        }
+        .ul{
+            /*背景*/
+            list-style-type: none;  
+            background: #fffcf4;
+            border-radius :8px;/*角の丸み*/
+            box-shadow :0px 0px 5px silver;/*5px=影の広がり具合*/
+            padding: 0.5em 0.5em 0.5em 2em;
+            /*位置を調整*/
+            width: 500px;
+            position: relative;
+            left: 340px;
+
+            color: red;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <p>このサイトはあなたの英語力を測定するサイトです。製作者は、英語ばか弱いのでミスがあります。</p>
+    <p>This web-site has been runed for you wanting to improve your english!!!</p>
+    <a href="quiz.html"><p>もとサイトへ戻ります
+    </p></a>
+    
+
+    <h2 class="explanation">"*"を選んでください</h2>
+    <div>
+        <h2>Question 1</h2>
+        <p class="Lv">Lv1</p>
+        <p>The clerk told me that my coupon was ***</p>
+        <p>It was espired 3 weeks ago, according to the cleark</p>
+        <p class="ans">クーポンは期限が切れていることがわかる。よってinvalid "無効な" が正解</p>
+        <form id="questions1">
+        <input type="checkbox" name="TRUE" value="TRUE1" id="TRUE1">invalid
+        <input type="checkbox" name="FALSE" value="oneT">valuable
+        <input type="checkbox" name="FALSE" value="oneD">important
+        </form>
+    </div>
+
+    <div>
+        <h2>Question2</h2>
+        <p class="Lv">Lv2</p>
+        <p>A) I wonder why she did not invite me to her home party</p>
+        <p>B) I'm not sure ** she did that, but I think it is prooved that she does not have positive sign to you.</p>
+        <p class="ans">**に入る関係代名詞及び関係副詞はreasonの先行詞の意味を含有しているwhyのみとなる。よって正解はwhy。なおもし選択肢にhowがある場合は正解となり得るが意味的にもwhyが無難である。
+        </p>
+        <input type="checkbox" name="FALSE" value="One2K">which
+        <input type="checkbox" name="TRUE" value="TRUE2" id="TRUE2">why
+        <input type="checkbox" name="FALSE" value="one2NO">whose
+    </div>
+
+    <div>
+        <h2>Question 3</h2>
+        <p class="Lv">Lv1</p>
+        <p>choose the word, "that" having same grammatical meaning</p>
+        <p>I didn't know that you are from United-States.</p>
+        <p>A) hum, I think the accident happened in the begining of this month is terrible....</p>
+        <p>B) The price of that car is too high to purchase for me.......</p>
+        <p>C) English is the language that is spoken all over the world, which means that if you have profetional knowledge to that, you will be no longer in the troble regarding to comunication.</p>
+        <p>このthatは接続詞である。よってAが正解。Aは接続詞。Bは形容詞。Cは関係代名詞である。</p>
+        <input type="checkbox" name="TRUE" value="one6TRUE" id="TRUE3">A
+        <input type="checkbox" name="FALSE" value="one6I">B
+        <input type="checkbox" name="FALSE" value="one6A">C
+
+    </div>
+
+    <div>
+        <h2>Question 4</h2>
+        <p class="Lv">Lv1</p>
+        <p>I was surprised that the defendant's appeal to The SupremeCourt in japan was ***</p>
+        <p>被告人の上訴は上訴はA美味しくはない。よってrejected。拒否されたである。なおgraduallyは副詞となるため適当ではない。SVCのCの部分に副詞は入らない。</p>
+        <input type="checkbox" name="FALSE" value="one10E">delicious
+        <input type="checkbox" name="FALSE" value="one10A">gradually
+        <input type="checkbox" name="TRUE" value="one10TRUE" id="TRUE4">rejected
+    </div>
+
+    <div>
+
+        <h2>Question 5</h2>
+        <p class="Lv">Lv4</p>
+        <p>chhose the word that has the closet meaning of "mystery"</p>
+        <p class="ans">mystery は謎である。選択肢を検討する。Aは憲法。Bは謎。Cは商人。よってBが正解</p>
+        <input type="checkbox" name="FALSE" value="one4TO">constitution
+        <input type="checkbox" name="TRUE" value="one4TRUE" id="TRUE5">enigma
+        <input type="checkbox" name="FALSE" value="one4GI">merchant
+    </div>
+
+    <div>
+        <h2>Question 6</h2>
+        <p class="Lv">Lv3</p>
+        <p>A) I want ** to take part in our club</p>
+        <p>yourは所有格なので名詞が後に必要。Iは主格であるため**には入り得ない。</p>
+        <input type="checkbox" name="FALSE" value="one5YR">your
+        <input type="checkbox" name="TRUE" value="one5TRUE" id="TRUE6">you
+        <input type="checkbox" name="FALSE" value="one5I">I
+    </div>
+
+    <div>
+        <h2>Question 7</h2>
+        <p class="Lv">Lv5</p>
+        <p>A) Can you agree with Mr.prime minister's plan to boost economy.</p>
+        <p>B) He is trying to impose high taxes coming from oversease, right?</p>
+        <p>B) I'm concerned about the high infureshon.</p>
+        <p>I think ***</p>
+        <p class="ans">I think so。で私はそう思うの意味</p>
+        <input type="checkbox" name="FALSE" value="one7BY">by
+        <input type="checkbox" name="FALSE" value="one7ON">on
+        <input type="checkbox" name="TRUE" value="one7TRUE" id="TRUE7">so
+    </div>
+
+    <div>
+        <h2>Question 8</h2>
+        <p class="Lv">Lv6</p>
+        <p>Emperor Wudi's reign from 141 to 87 BC was marked by significant military campaigns, diplomatic alliances, and domestic reforms. He expanded the empire's territory to Central Asia, Korea, and Vietnam, and established the Silk Road trade routes.</p> 
+        <p>where did he conquest?</p>
+        <p class="ans">武帝は中央アジア、朝鮮、ベトナムを征服したのである。よってa large part of Asia が正解となる。</p>
+        <input type="checkbox" name="FALSE" value="one8F1">American continent
+        <br><input type="checkbox" name="FALSE" value="one8F2">Europe
+        <br><input type="checkbox" name="TRUE" value="one8TRUE" id="TRUE8">a large part of Asia
+
+    </div>
+
+    <div>
+        <h2>Question 9</h2>
+        <p class="Lv">Lv4</p>
+        <p>The Purposes of the United Nations are<br>*</p>
+        <br><input type="checkbox" name="TRUE" value="one9TRUE" id="TRUE9">To maintain international peace and security, and to that end: to take effective collective
+ measures for the prevention and removal of threats to the peace, and for the suppression of acts
+ of aggression or other breaches of the peace, and to bring about by peaceful means, and in
+ conformity with the principles of justice and international law, adjustment or settlement of
+ international disputes or situations which might lead to a breach of the peace.
+        <br><input type="checkbox" name="FALSE" value="one9F1">to prevend our world from frighting again.We are learned that war that is terrible and makes our world <br>
+        inhospitable one -mainly because a newlly invented weapon and utilised to the japan- should be abolished.
+        <br><input type="checkbox" name="FALSE" value="one9F2">to cause the war and protect the world from communist.We have successed to deheat fasism as every one watched <br>
+        Next steps, however, should be done.
+        <p class="ans">国連憲章より引用。</p>
+    </div>
+
+
+    <div>
+        <h2>Last Question</h2>
+        <p class="Lv">Lv max </p>
+        <p>we have lots of way to write imformation, these ways. For example you can write it in the paper with pen. However you should not do that because it can be seen easily.
+            <br>so, i suggest you to use your smartphone, which is the safest way to protect your imformation, if you have strong password.
+            <br>be carful not to tell your password to anyone, of course.
+        </p>
+        <p>Question) Why is using smartphone the safest?</p>
+        <P class="ans">情報を記録する上でスマートフォン上に記憶するのが一番である。解読サれることがないパスワードがあるからである。AとCはその意味から外れている。</P>
+        <input type="checkbox" name="FALSE" value="one">Because if we decide the password, our parents can see our smartohone.
+        <br><input type="checkbox" name="TRUE" value="one" id="TRUE10"> Because if we decide the password, nobody can open them.
+        <br><input type="checkbox" name="FALSE" value="one">Because if we forgot the password, there are nothing to be able to open our smartohone.
+
+    </div>
+    
+
+    
+
+</body>
+</html>
